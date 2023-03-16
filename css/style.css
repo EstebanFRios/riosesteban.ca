@@ -4,7 +4,7 @@
 
 body {
     padding-top: 70px;
-	color: #222;
+	  color: #222;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     line-height: 1.8 !important;
@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p{
 	font-family: 'Playfair Display', serif;
-	font-weight: 300px;
+	font-weight: 300;
 }
 
 section {
@@ -129,6 +129,7 @@ a:hover,a:focus {
 	background-color: #222;
 	display: block;
 }
+
 .navbar-toggle span.bar1 {
 	-ms-transform: rotate(45deg);
 	-webkit-transform: rotate(45deg);
@@ -141,7 +142,8 @@ a:hover,a:focus {
   -o-transform-origin: 1px 3px;
 	transform-origin: 1px 3px;
 	width: 31px;
-}
+} 
+
 .navbar-toggle span.bar2 {
 	-ms-transform: rotate(-360deg) scale(0);
 	-webkit-transform: rotate(-360deg) scale(0);
@@ -172,7 +174,7 @@ a:hover,a:focus {
 /* Intro */
 
 .intro {
-	font-size:20px;
+	font-size:25px;
 	padding-top: 40px;
 	padding-bottom:25px;
 }
@@ -497,6 +499,7 @@ a:hover,a:focus {
 }
 
 .logo-list li {
+
  /* padding-bottom:1%; */
 }
 
@@ -504,7 +507,7 @@ a:hover,a:focus {
 .logo-list li a:focus {
   opacity: 0.6;
   transition: opacity 0.4s ease;
-  transform: translateY(-15px);
+  transform: scale(130%);
   display: flex;
 }
 
@@ -533,7 +536,9 @@ footer p {
   position: fixed;
   bottom: 40px;
   right: 20px;
+
   /* image replacement properties */
+
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
@@ -545,19 +550,23 @@ footer p {
   -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s;
 }
+
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
   -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s;
 }
+
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
+
 }
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
+
 }
 .no-touch .cd-top:hover {
   background-color: transparent;
@@ -570,6 +579,7 @@ footer p {
     bottom: 20px;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-top {
     height: 60px;
